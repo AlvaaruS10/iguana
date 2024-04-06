@@ -1,0 +1,147 @@
+
+body {
+background: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family:  sans-serif;
+font-weight: 100;
+}
+
+.titulo{
+    width: 101%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    background: black;
+}
+
+.padre{
+    width: 100%;
+    height: 440px;
+    color: white;
+    background: #1e1a13 0% 0% no-repeat padding-box; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    
+    width: 102%;
+    justify-content: center;
+    flex-direction: none;
+    background: black;
+    display: flex;
+    margin: 0;
+    
+}
+
+.caja{
+    width: 90%;
+    height: 150px;
+
+    opacity:0.98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cajita{
+    width: 100px;
+    height: 100px;
+
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h3{
+    font-weight: 700;
+    color:"white";
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px
+}
+
+
+
+i{
+margin-bottom: 5px;
+font-size: 35px;
+}
+
+.hero {
+    width: 101%;
+    height: 80vh;
+    background: url(/assets/img/capturapng.png)no-repeat; 
+    
+    background-size:cover;
+
+
+}
+
+     
+.footer{
+    width: 101%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    background: #1e1a13;
+    
+   
+}
+.Gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 100vw;
+        margin: 6rem 0;
+        background: black;
+}
+.image {
+   
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1);
+}
+.image:hover {
+    filter: brightness(0.4);
+    cursor: pointer;
+    transition: 0.35s;
+}
+.image:hover::after {
+    content: "Ver mas...";
+    font-size: larger;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: whitesmoke;
+}
+
+.image1{
+    background-image: url("../img/image1.png");
+}
+.image2{
+    background-image: url("../img/image2.png");
+}
+.image3{
+    background-image: url("../img/image3.png");
+}
+       
